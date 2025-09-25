@@ -1,0 +1,248 @@
+[
+  {
+    "id":101,
+    "name":"Монитор Xiaomi Monitor A27i Черный",
+    "category":"Monitor",
+    "price":11790,
+    "stock":5,
+    "rating":4.8,
+    "reviews_count":120,
+    "created_at":"2025-08-25",
+    "image":"Images/6460xo4nhnpokvvg3uz70x1b243vgbf9.jpeg",
+    "promo":"Хит продаж"
+  },
+  
+  {
+    "id":102,
+    "name":"Монитор Dahua DHI-LM22-B200S",
+    "category":"Monitor",
+    "price":8900,
+    "stock":1,
+    "rating":4.2,
+    "reviews_count":50,
+    "created_at":"2025-09-01",
+    "image":"Images/DHI_LM22_B200S-1.png",
+    "promo":null
+  },
+
+  {
+    "id":103,
+    "name":"Игровая клавиатура Dark Project KD83A G3ms Sapphire Blue",
+    "category":"Keybord",
+    "price":10999,
+    "stock":5,
+    "rating":4.9,
+    "reviews_count":250,
+    "created_at":"2025-09-05",
+    "image":"Images/be779960c4.jpg",
+    "promo":"Хит продаж"
+  },
+
+  {
+    "id":104,
+    "name":"Игровая клавиатура Dark Project KD87A LTD",
+    "category":"Keybord",
+    "price":9499,
+    "stock":30,
+    "rating":3.6,
+    "reviews_count":100,
+    "created_at":"2025-09-10",
+    "image":"Images/dark-project-kd61-ltd-1-1000x1000.jpg",
+    "promo":null
+  },
+
+  {
+    "id":105,
+    "name":"мышь с металлической подсветкой и подсветкой TALOS X3",
+    "category":"Game mouse",
+    "price":999,
+    "stock":25,
+    "rating":1.4,
+    "reviews_count":110,
+    "created_at":"2025-08-01",
+    "image":"Images/fb6005a8fad47f87121d457a6e8936aaab85deaf_original.jpeg",
+    "promo":"Хит продаж"
+  },
+
+  {
+    "id":106,
+    "name":"Мышь игровая беспроводная Logitech G304 Lightspeed Black",
+    "category":"Game mouse",
+    "price":10299,
+    "stock":10,
+    "rating":4.0,
+    "reviews_count":500,
+    "created_at":"2025-07-09",
+    "image":"Images/fed8fa77_9ae4_11e8_95e0_00155d0aaa09_dd265d7e_d2b8_11ec_a423_00155d7d1c00.resize1.jpg",
+    "promo":null
+  },
+
+  {
+    "id":107,
+    "name":"Чайник электрический BRAYER BR1032",
+    "category":"kettle",
+    "price":1890,
+    "stock":45,
+    "rating":2.4,
+    "reviews_count":700,
+    "created_at":"2025-03-24",
+    "image":"Images/n14d60l9q83vaypzv1nwd9qfasy83d32.jpg",
+    "promo":null
+  },
+
+  {
+    "id":108,
+    "name":"Чайник Pioneer KE850GD",
+    "category":"kettle",
+    "price":2300,
+    "stock":5,
+    "rating":4.8,
+    "reviews_count":320,
+    "created_at":"2025-07-20",
+    "image":"Images/y9fm1tbkiv8ptu75mw2anfllp84phn3z.jpg",
+    "promo":"Хит продаж"
+  },
+
+  {
+    "id":109,
+    "name":"Телевизор Xiaomi TV A Pro 55 2025 (L55MA-SRU) Black (Черный)",
+    "category":"TV",
+    "price":35899,
+    "stock":27,
+    "rating":4.6,
+    "reviews_count":640,
+    "created_at":"2025-08-25",
+    "image":"Images/03gqyzsatvxtwdwpn3f917o5il0e38r4.jpg",
+    "promo":null
+  },
+
+  {
+    "id":110,
+    "name":"Телевизор Haier 65 Smart TV S1",
+    "category":"TV",
+    "price":100999,
+    "stock":3,
+    "rating":5.0,
+    "reviews_count":1340,
+    "created_at":"2024-09-18",
+    "image":"Images/10031389bb.avif",
+    "promo":null
+  },
+
+  {
+    "id":111,
+    "name":"Геймпад Sony DualSense Controller PlayStation 5",
+    "category":"Gamepad",
+    "price":7500,
+    "stock":6,
+    "rating":4.3,
+    "reviews_count":340,
+    "created_at":"2023-07-06",
+    "image":"Images/dualsense-ps5-controller-white.jpg",
+    "promo":"Хит продаж"
+  },
+
+  {
+    "id":112,
+    "name":"Геймпад Microsoft Xbox Series Starfield Limited Edition",
+    "category":"Gamepad",
+    "price":24990,
+    "stock":0,
+    "rating":4.1,
+    "reviews_count":343,
+    "created_at":"2022-12-12",
+    "image":"Images/gamepad-xbox-series-starfield.jpg",
+    "promo":null
+  },
+
+  {
+    "id":113,
+    "name":"Геймпад Wireless Dualshock 3",
+    "category":"Gamepad",
+    "price":2000,
+    "stock":1001,
+    "rating":4.3,
+    "reviews_count":940,
+    "created_at":"2015-11-27",
+    "image":"Images/dualshock-3-3.jpg",
+    "promo":null
+  },
+
+  {
+    "id":114,
+    "name":"Монитор игровой Thunderobot (DQ27F100)",
+    "category":"Monitor",
+    "price":15000,
+    "stock":12,
+    "rating":4.8,
+    "reviews_count":170,
+    "created_at":"2023-09-19",
+    "image":"Images/Монитор-игровой-Thunderobot-DQ27F100.jpeg",
+    "promo":"Хит продаж"
+  },
+
+  {
+    "id":115,
+    "name":"Galaxy Book Flex",
+    "category":"Laptop",
+    "price":45000,
+    "stock":3,
+    "rating":0.0,
+    "reviews_count":0,
+    "created_at":"2025-09-20",
+    "image":"Images/Galaxy-Book-Flex-15_3_large.jpg",
+    "promo":"Хит продаж"
+  },
+
+  {
+    "id":116,
+    "name":"Ноутбук Lenovo ThinkBook 15 G2 ITL",
+    "category":"Laptop",
+    "price":19899,
+    "stock":29,
+    "rating":4.0,
+    "reviews_count":404,
+    "created_at":"2023-01-01",
+    "image":"Images/2022-04-18_14-36-21.png",
+    "promo":null
+  },
+
+  {
+    "id":117,
+    "name":"Ноутбук MSI MS-16J9 (1920x1080, Intel Core i7-7700HQ, RAM 8ГБ, SSD 128ГБ, Nvidia GeForce GTX 1050, Windows 10 Pro)",
+    "category":"Laptop",
+    "price":50000,
+    "stock":10,
+    "rating":4.8,
+    "reviews_count":840,
+    "created_at":"2025-09-01",
+    "image":"Images/2024-08-11_16-14-11.png",
+    "promo":"Хит продаж"
+  },
+
+  {
+    "id":118,
+    "name":"Apple MacBook Air 15 2024 M3 8/256Gb (Midnight) (MRYU3)",
+    "category":"Laptop",
+    "price":94590,
+    "stock":32,
+    "rating":4.1,
+    "reviews_count":10,
+    "created_at":"2023-09-22",
+    "image":"Images/7ya0o73n91go71jr4rt3gae195x7my6f.jpg",
+    "promo":"Хит продаж"
+  },
+
+  {
+    "id":119,
+    "name":"Монитор Acer KG251Qbmiix",
+    "category":"Monitor",
+    "price":10000,
+    "stock":19,
+    "rating":3.3,
+    "reviews_count":110,
+    "created_at":"2020-12-31",
+    "image":"Images/bbd01a46-d27c-4246-81ae-ef441ef495c5.jpg",
+    "promo":null
+  }
+]
