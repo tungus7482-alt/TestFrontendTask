@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Каталог товаров</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <h1 class="header__logo">Каталог товаров</h1>
+  </header>
+
+  <main class="main">
+    <section class="filters">
+      <div class="filters-row">
+        <input type="text" id="search" placeholder="Поиск по названию...">
+        <select id="category">
+          <option value="">Все категории</option>
+        </select>
+      </div>
+
+      <div class="filters-row">
+        <input type="number" id="minPrice" placeholder="Мин. цена">
+        <input type="number" id="maxPrice" placeholder="Макс. цена">
+        <label>
+          <input type="checkbox" id="inStock"> В наличии
+        </label>
+        <select id="sort">
+          <option value="">Сортировка</option>
+          <option value="price_asc">Цена ↑</option>
+          <option value="price_desc">Цена ↓</option>
+          <option value="rating_desc">Рейтинг</option>
+          <option value="date_desc">Новинки</option>
+        </select>
+      </div>
+    </section>
+
+    <section id="compare-container" class="compare-container" style="display: none;">
+      <div class="compare-header">
+        <h2>Сравнение товаров</h2>
+        <button id="close-compare" class="close-compare">×</button>
+      </div>
+      <div id="compare-table" class="compare-table"></div>
+    </section>
+
+    <div id="loader" class="loader">
+      <div class="spinner"></div>
+      <p>Загрузка товаров...</p>
+    </div>
+    
+    <section class="catalog" id="catalog"></section>
+
+    <section class="pagination" id="pagination"></section>
+  </main>
+
+  <script src="test.js"></script>
+</body>
+</html>

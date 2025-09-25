@@ -1,0 +1,91 @@
+.compare-container {
+  background: $card-bg;
+  border-radius: $border-radius-lg;
+  padding: $spacing-md;
+  margin: 0 $spacing-lg $spacing-lg;
+  box-shadow: $shadow;
+  border: 1px solid darken($card-bg, 10%);
+  
+  @include mobile {
+    margin: 0 $spacing-sm $spacing-sm;
+    padding: $spacing-sm;
+  }
+
+  .compare-header {
+    @include flex-between;
+    margin-bottom: $spacing-md;
+    
+    h2 {
+      margin: 0;
+      color: $text;
+      font-size: 1.5rem;
+    }
+
+    .close-compare {
+      background: none;
+      border: none;
+      font-size: 2rem;
+      cursor: pointer;
+      color: $secondary;
+      line-height: 1;
+      
+      &:hover {
+        color: $text;
+      }
+    }
+  }
+
+  .compare-table {
+    overflow-x: auto;
+    
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: lighten($card-bg, 2%);
+      border-radius: $border-radius;
+      overflow: hidden;
+      
+      th, td {
+        padding: $spacing-sm;
+        text-align: left;
+        border: 1px solid darken($card-bg, 5%);
+      }
+      
+      th {
+        background: darken($card-bg, 5%);
+        font-weight: bold;
+        color: $text;
+        white-space: nowrap;
+      }
+      
+      tr:nth-child(even) {
+        background: darken($card-bg, 2%);
+      }
+      
+      td {
+        color: $text;
+        
+        &:first-child {
+          font-weight: 600;
+          background: darken($card-bg, 3%);
+        }
+      }
+    }
+    
+    .clear-compare-btn {
+      margin-top: $spacing-sm;
+      padding: 0.75rem 1.5rem;
+      background: #dc2626;
+      color: white;
+      border: none;
+      border-radius: $border-radius;
+      cursor: pointer;
+      font-weight: 600;
+      transition: $transition;
+      
+      &:hover {
+        background: darken(#dc2626, 10%);
+      }
+    }
+  }
+}
