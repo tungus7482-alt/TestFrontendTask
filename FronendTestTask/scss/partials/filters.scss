@@ -1,0 +1,59 @@
+.filters {
+  @include filters-grid;
+  background: $card-bg;
+  border-radius: $border-radius-lg;
+  padding: $spacing-md;
+  margin: $spacing-lg auto;
+  box-shadow: $shadow;
+  border: 1px solid darken($card-bg, 6%);
+  align-items: center;
+  gap: $spacing-md;
+
+  input[type="text"] {
+    @include input-style;
+    grid-column: span 2;
+    min-width: 260px;
+  }
+
+  select {
+    @include input-style;
+    min-width: 200px;
+  }
+
+  input[type="number"] {
+    @include input-style;
+    min-width: 120px;
+  }
+
+  label {
+    font-size: 0.95rem;
+    color: $text;
+    display: flex;
+    align-items: center;
+    gap: $spacing-xs;
+    white-space: nowrap;
+  }
+
+  @media (max-width: 1024px) {
+    grid-template-columns: 1fr 1fr;
+    input[type="text"] {
+      grid-column: span 2;
+    }
+    select, input[type="number"], label {
+      width: 100%;
+    }
+  }
+
+  @include mobile {
+    grid-template-columns: 1fr;
+    gap: $spacing-sm;
+
+    input[type="text"],
+    select,
+    input[type="number"],
+    label {
+      min-width: unset;
+      width: 100%;
+    }
+  }
+}

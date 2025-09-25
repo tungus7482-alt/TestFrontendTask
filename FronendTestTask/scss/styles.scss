@@ -1,0 +1,29 @@
+@import "partials/variables";
+@import "partials/mixins";
+@import "partials/header";
+@import "partials/catalog";
+@import "partials/product-card";
+@import "partials/loader";
+@import "partials/compare";
+@import "partials/paginator";
+@import "partials/filters";
+
+body {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  background: $bg;
+  color: $text;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
